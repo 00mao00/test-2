@@ -39,6 +39,7 @@
 
 - **セキュリティグループでHTTP（ポート80）許可**
 - **パブリックIPにアクセスしてApache起動確認**
+<img width="1084" alt="Image" src="https://github.com/user-attachments/assets/e5911b16-a114-44f5-ad01-22c1bf227416" />
 
 ## 【3】ドキュメントルートのアクセス権限設定
 
@@ -56,6 +57,7 @@
   vi /var/www/html/index.html
   ```
   内容に「Hello Linux!」と記述し保存。
+<img width="1081" alt="Image" src="https://github.com/user-attachments/assets/ee03fa0f-e60c-4dc3-9e6b-5d0942427d2d" />
 
 ## 【4】PHP動作確認（phpinfoページ作成）
 
@@ -91,7 +93,7 @@
   ```
   http://<パブリックIP>/index.php
   ```
-
+<img width="1082" alt="Image" src="https://github.com/user-attachments/assets/aa6e07d5-42ea-4853-a7e3-8dacc46789f9" />
 ### 【ここでの疑問点について】
 
 - 最初の`index.html`は**HTML**、次の`index.php`は**PHPプログラム**。
@@ -179,6 +181,7 @@
   ```
 
 - **ログイン画面が表示されることを確認**
+<img width="1434" alt="Image" src="https://github.com/user-attachments/assets/55bf6540-c5a4-4b52-9146-b97c38a7197e" />
 
 # 最後にまとめポイント！
 
